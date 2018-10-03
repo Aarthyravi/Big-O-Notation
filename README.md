@@ -31,7 +31,7 @@ Algorithm 5 is important, as it helps show that as long as the number is greater
     for(double i = 1; i < n; i = i * 1.02)
       print "hello";
       
-## O(n) - Linear Time Examples:
+### O(n) - Linear Time Examples:
 
 #### Algorithm 6
 This algorithm is simple, which prints hello n times.

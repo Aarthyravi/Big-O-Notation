@@ -46,42 +46,42 @@ O(n*log(n)) - nlog(n) Examples:
 #### Algorithm 8
 Think of this as a combination of O(log(n)) and O(n). The nesting of the for loops help us obtain the O(n*log(n))
 
-for(int i = 0; i < n; i++)
-  for(int j = 1; j < n; j = j * 2)
-    print "hello";
+    for(int i = 0; i < n; i++)
+      for(int j = 1; j < n; j = j * 2)
+        print "hello";
 #### Algorithm 9
 Algorithm 9 is like algorithm 8, but each of the loops has allowed variations, which still result in the final result being O(n*log(n))
 
-for(int i = 0; i < n; i = i + 2)
-  for(int j = 1; j < n; j = j * 3)
-    print "hello";
+    for(int i = 0; i < n; i = i + 2)
+      for(int j = 1; j < n; j = j * 3)
+        print "hello";
 ### O(n^2) - n squared Examples:
 
 #### Algorithm 10
 O(n^2) is obtained easily by nesting standard for loops.
 
-for(int i = 0; i < n; i++)
-  for(int j = 0; j < n; j++)
-    print "hello";
+    for(int i = 0; i < n; i++)
+      for(int j = 0; j < n; j++)
+        print "hello";
 #### Algorithm 11
 Like algorithm 10, but with some variations.
 
-for(int i = 0; i < n; i++)
-  for(int j = 0; j < n; j = j + 2)
-    print "hello";
+    for(int i = 0; i < n; i++)
+      for(int j = 0; j < n; j = j + 2)
+        print "hello";
 ### O(n^3) - n cubed Examples:
 
 #### Algorithm 12
 This is like algorithm 10, but with 3 loops instead of 2.
 
-for(int i = 0; i < n; i++)
-  for(int j = 0; j < n; j++)
-    for(int k = 0; k < n; k++)
-      print "hello";
+    for(int i = 0; i < n; i++)
+      for(int j = 0; j < n; j++)
+        for(int k = 0; k < n; k++)
+          print "hello";
 #### Algorithm 13
 Like algorithm 12, but with some variations that still yield O(n^3).
 
-for(int i = 0; i < n; i++)
-  for(int j = 0; j < n + 5; j = j + 2)
-    for(int k = 0; k < n; k = k + 3)
-      print "hello";
+    for(int i = 0; i < n; i++)
+      for(int j = 0; j < n + 5; j = j + 2)
+        for(int k = 0; k < n; k = k + 3)
+          print "hello";

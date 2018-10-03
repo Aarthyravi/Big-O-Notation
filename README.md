@@ -1,8 +1,8 @@
 # Big-O-Notation
 
-O(1) - Constant Time Examples:
+## O(1) - Constant Time Examples:
 
-Algorithm 1:
+    Algorithm 1:
 Algorithm 1 prints hello once and it doesn't depend on n, so it will always run in constant time, so it is O(1).
 
 print "hello";

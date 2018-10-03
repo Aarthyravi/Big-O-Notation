@@ -12,6 +12,7 @@ Algorithm 2 prints hello 3 times, however it does not depend on an input size. E
     print "hello";
     print "hello";
     print "hello";
+    
 ### O(log(n)) - Logarithmic Examples:
 
 #### Algorithm 3 - This acts like "log_2"
@@ -29,6 +30,7 @@ Algorithm 5 is important, as it helps show that as long as the number is greater
 
     for(double i = 1; i < n; i = i * 1.02)
       print "hello";
+      
 ## O(n) - Linear Time Examples:
 
 #### Algorithm 6
@@ -41,7 +43,8 @@ This algorithm shows a variation, where it will print hello n/2 times. n/2 = 1/2
 
     for(int i = 0; i < n; i = i + 2)
       print "hello";
-O(n*log(n)) - nlog(n) Examples:
+      
+### O(n*log(n)) - nlog(n) Examples:
 
 #### Algorithm 8
 Think of this as a combination of O(log(n)) and O(n). The nesting of the for loops help us obtain the O(n*log(n))
@@ -55,6 +58,7 @@ Algorithm 9 is like algorithm 8, but each of the loops has allowed variations, w
     for(int i = 0; i < n; i = i + 2)
       for(int j = 1; j < n; j = j * 3)
         print "hello";
+        
 ### O(n^2) - n squared Examples:
 
 #### Algorithm 10
